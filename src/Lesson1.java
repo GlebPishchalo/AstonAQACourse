@@ -44,7 +44,7 @@ public class Lesson1 {
         System.out.println("Banana");
         System.out.println("Apple");
     }
-    public static int checkSumSign(){
+    public static void checkSumSign(){
         int a = 1;
         int b = 2;
         if (a + b >= 0){
@@ -53,9 +53,9 @@ public class Lesson1 {
         else{
             System.out.println("Сумма отрицательная");
         }
-        return a + b;
+        
     }
-    public static int printColor(){
+    public static void printColor(){
         int value = 10;
         if (value <= 0){
             System.out.println("Красный");
@@ -66,9 +66,9 @@ public class Lesson1 {
         else{
             System.out.println("Зеленый");
         }
-        return value;
+      
     }
-    public static int compareNumbers(){
+    public static void compareNumbers(){
         int a = 1;
         int b = 2;
         if (a >= b){
@@ -77,7 +77,7 @@ public class Lesson1 {
         else{
             System.out.println("a < b");
         }
-        return a - b;
+        
     }
     public static boolean checkRangeNumbers(int a, int b){
         if(a+b >= 10 && a+b <= 20){
@@ -99,17 +99,17 @@ public class Lesson1 {
     }
     public static boolean getTypeBooleanNumber(int a){
         if (a>=0){
-            return true;
-        }
-        else{
             return false;
         }
+        else{
+            return true;
+        }
     }
-    public static String cloneString(String a, int b){
+    public static void cloneString(String a, int b){
         for (int i = 0; i < b; i++){
             System.out.println(a+" ");
         }
-        return a;
+        
     }
     public static boolean typeOfYear(int a){
         if (a%4 == 0 && a%100 != 0 || a%400 == 0){
