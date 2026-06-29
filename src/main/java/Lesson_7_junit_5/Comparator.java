@@ -1,4 +1,4 @@
-package Lesson_7_junit_5.main;
+package Lesson_7_junit_5;
 
 
 public class Comparator {

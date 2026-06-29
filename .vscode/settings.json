@@ -6,7 +6,9 @@
     "java.project.referencedLibraries": [
         "lib/**/*.jar",  
         "lib/junit-platform-console-standalone-1.11.4.jar",
-        "lib/testng-7.10.2.jar"
+        "lib/testng-7.10.2.jar",
+        "lib/jcommander-1.82.jar" 
     ],
+    "java.configuration.updateBuildConfiguration": "interactive",
    
 }

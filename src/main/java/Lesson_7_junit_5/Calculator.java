@@ -1,4 +1,4 @@
-package Lesson_7_junit_5.main;
+package Lesson_7_junit_5;
 
 public class Calculator {
     public int add(int a, int b) {

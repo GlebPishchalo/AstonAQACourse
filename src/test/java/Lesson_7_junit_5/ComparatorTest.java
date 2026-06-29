@@ -1,10 +1,10 @@
-package Lesson_7_junit_5.test;
+package Lesson_7_junit_5;
 
 
 
 import org.junit.jupiter.api.*;
 import static org.junit.jupiter.api.Assertions.*;
-import Lesson_7_junit_5.main.Comparator;  // ← импортируем класс
+
 
 class ComparatorTest {
     private Comparator comparator;
