@@ -51,10 +51,10 @@ public class PhonesBook {
             System.out.println("Телефонный справочник пуст.");
             return;
         }
-        System.out.println(" Телефонный справочник ");
+        System.out.println("=== Телефонный справочник ===");
         for (Map.Entry<String, List<String>> entry :  PhonesBook.entrySet()) {
             System.out.println(entry.getKey() + ": " + String.join(", ", entry.getValue()));
         }
-        System.out.println("");
+        System.out.println("==============================");
     }
 }

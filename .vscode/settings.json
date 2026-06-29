@@ -1,7 +1,12 @@
 {
-    "java.project.sourcePaths": ["src"],
+    "java.project.sourcePaths": ["src",
+"src/lesson_7_junit_5/main/java",
+        "src/lesson_7_junit_5/test/java"],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
-        "lib/**/*.jar"
-    ]
+        "lib/**/*.jar",  
+        "lib/junit-platform-console-standalone-1.11.4.jar",
+        "lib/testng-7.10.2.jar"
+    ],
+   
 }
